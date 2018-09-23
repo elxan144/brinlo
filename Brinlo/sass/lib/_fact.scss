@@ -1,0 +1,32 @@
+#fact{
+    height: 650px;
+    background-color: $sixcolor;
+    .fact_{
+        height: 650px;
+    }
+    .factBox{
+        width: 184px;
+        p{
+            color: $sevencolor;
+            font-size: 20px;
+        }
+    }
+    h1{
+        font-size: 80px;
+        color: rgb(255, 255, 255);
+        }
+        h2{
+            font-size: 28px;
+            color: $thirdcolor;
+        }
+           
+        span{
+            color: $mainColor;
+        }
+        .factborder{
+            border-right: 1px solid $sevencolor;
+            height: 200px;
+            width: 45px;
+        }
+
+}

@@ -1,0 +1,499 @@
+.wrapple, #header {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+#slide {
+  background: white url("../image/header-bg.jpg") center center no-repeat;
+  background-size: cover;
+  height: 1100px;
+  font-family: "Montserrat", sans-serif;
+}
+#slide .overlay {
+  width: 100%;
+  height: 1100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#slide .slide_content {
+  height: 550px;
+}
+#slide .slide_content h2 {
+  font-size: 40px;
+  color: #d8d8d8;
+  margin-bottom: 30px;
+}
+#slide .slide_content h1 {
+  font-size: 130px;
+  font-weight: 700;
+  color: white;
+}
+#slide .slide_btn {
+  height: 55px;
+  width: 200px;
+  background-color: #ff8400;
+  color: white;
+  border-radius: 50px;
+  border: none;
+}
+#slide .slide_btn:hover {
+  background-color: #141524;
+}
+#slide .slide_btn2 {
+  height: 55px;
+  width: 200px;
+  color: white;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid gray;
+}
+#slide .slide_btn2:hover {
+  background-color: #ff8400;
+}
+#slide .slide_bottom {
+  height: 600px;
+}
+#slide .slide_bottom_box {
+  height: 360px;
+}
+#slide .slide_bottom_box span {
+  font-size: 50px;
+  color: #ff8400;
+}
+#slide .slide_bottom_box h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+#slide .slide_bottom_box p {
+  font-size: 17px;
+  color: #818181;
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+#empty {
+  height: 350px;
+  background-color: white;
+}
+
+#header {
+  font-family: "Montserrat", sans-serif;
+}
+
+#about {
+  height: 650px;
+  font-family: "Montserrat", sans-serif;
+}
+#about .aboutImage {
+  height: 550px;
+}
+#about .about-bottom {
+  position: relative;
+}
+#about .about-bottom img {
+  height: 150px;
+  width: 120px;
+}
+#about .about-bottom .aboutImageOverlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 150px;
+  width: 120px;
+  background-color: rgba(255, 123, 0, 0.794);
+}
+#about .about-bottom span {
+  cursor: pointer;
+}
+#about p {
+  line-height: 25px;
+  color: #818181;
+}
+#about h2 {
+  font-size: 25px;
+  color: #505050;
+}
+#about h1 {
+  font-size: 50px;
+}
+
+#we_see {
+  background: gray url("../image/we-see-bg.jpg") center center no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+#we_see .we_seeOverlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(6, 9, 44, 0.931);
+}
+#we_see .we_seeOverlay h1 {
+  font-size: 60px;
+}
+#we_see .we_seeOverlay h2 {
+  font-size: 25px;
+  color: #b1b0bd;
+}
+#we_see .we_seeOverlay span {
+  color: #ff8400;
+}
+#we_see .we_seeOverlay .weCircle {
+  color: #ff8400;
+  font-size: 60px;
+  border: 1px solid #b1b0bd;
+  border-radius: 50%;
+  height: 215px;
+  width: 215px;
+  cursor: pointer;
+  transition: .6s ease-in-out;
+}
+#we_see .we_seeOverlay .weCircle:hover {
+  background-color: #ff8400;
+  color: aliceblue;
+}
+#we_see .we_seeOverlay .weCircle:hover h3 {
+  color: aliceblue;
+}
+#we_see .we_seeOverlay .weCircle span {
+  transform: rotateY(0deg);
+  transition: .4s ease-in-out;
+}
+#we_see .we_seeOverlay .weCircle:hover span {
+  transform: rotateY(360deg);
+  color: aliceblue;
+}
+#we_see .we_seeOverlay .weCircle h3 {
+  font-size: 35px;
+  color: #b1b0bd;
+}
+
+#feature {
+  height: 1100px;
+}
+#feature .feature_ {
+  height: 1100px;
+}
+#feature h1 {
+  font-size: 80px;
+  color: black;
+}
+#feature h2 {
+  font-size: 28px;
+  color: #505050;
+}
+#feature .card {
+  height: 285px;
+  width: 260px;
+  border: 2px solid #e6e6e6;
+}
+#feature .card:hover {
+  border: 2px solid #ff8400;
+}
+#feature .card:hover h6 {
+  color: #ff8400;
+}
+#feature .card span {
+  color: #ff8400;
+}
+#feature .card h6 {
+  font-size: 26px;
+}
+#feature .card p {
+  font-size: 19px;
+  line-height: 25px;
+}
+
+#portfolio {
+  height: 1100px;
+  background-color: #e8e8e8;
+}
+#portfolio .portfolio_ {
+  height: 1100px;
+}
+#portfolio h1 {
+  font-size: 80px;
+  color: black;
+}
+#portfolio h2 {
+  font-size: 28px;
+  color: #505050;
+}
+#portfolio .button-group {
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  border-radius: 30px;
+}
+#portfolio .button-group .btn1 {
+  width: 100px;
+  background-color: #ff8400 !important;
+}
+#portfolio .button-group .btn2 {
+  width: 180px;
+}
+#portfolio .button-group .btn3 {
+  width: 140px;
+}
+#portfolio .button-group .btn4 {
+  width: 206px;
+}
+#portfolio .button-group .btn5 {
+  width: 170px;
+}
+#portfolio .button-group .btn6 {
+  width: 140px;
+}
+#portfolio .button-group .btn7 {
+  width: 180px;
+}
+#portfolio .button-group .btn {
+  background-color: white;
+  color: #b1b0bd;
+  border-radius: 30px;
+  height: 60px;
+  transition: .6s ease-in-out;
+}
+#portfolio .button-group .btn:hover {
+  background-color: #ff8400;
+  color: white;
+}
+#portfolio .portfolioBox {
+  position: relative;
+  width: 340px;
+  height: 259px;
+}
+#portfolio .portfolioBox img {
+  width: 100%;
+  height: 100%;
+}
+#portfolio .portfolioBox .portfolioBoxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: .8s ease-in-out;
+}
+#portfolio .portfolioBox .portfolioBoxOverlay:hover {
+  background-color: rgba(255, 123, 0, 0.568);
+}
+#portfolio .portfolioBox .portfolioBoxOverlay:hover span {
+  background-color: #505050;
+  color: white;
+}
+#portfolio .portfolioBox .portfolioBoxOverlay span {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: transparent;
+  transition: .6s ease-in-out;
+  cursor: pointer;
+}
+#portfolio .portfolioBox .portfolioBoxOverlay span:hover {
+  transition: .4s;
+  background-color: #ff8400;
+}
+
+#team {
+  height: 1700px;
+}
+#team .team_ {
+  height: 1700px;
+}
+#team h1 {
+  font-size: 80px;
+  color: black;
+}
+#team h2 {
+  font-size: 28px;
+  color: #505050;
+}
+#team .card {
+  border: 2px solid #b1b0bd;
+}
+#team .card:hover {
+  border: none;
+  box-shadow: 5px 10px 20px 20px #eae7e782;
+}
+#team .card h4 {
+  color: #ff8400;
+}
+#team .card h1 {
+  font-size: 26px;
+}
+#team .card p {
+  font-size: 20px;
+}
+#team .card .teamImg {
+  overflow: hidden;
+  transition: .8s ease-in-out;
+}
+#team .card .teamImg img {
+  transition: .8s ease-in-out;
+}
+#team .card:hover img {
+  transform: rotate(-10deg) scale(1.3);
+}
+#team .card span {
+  color: #b1b0bd;
+  cursor: pointer;
+}
+#team .card span:hover {
+  color: #ff8400;
+}
+
+#fact {
+  height: 650px;
+  background-color: #13122c;
+}
+#fact .fact_ {
+  height: 650px;
+}
+#fact .factBox {
+  width: 184px;
+}
+#fact .factBox p {
+  color: #9a99af;
+  font-size: 20px;
+}
+#fact h1 {
+  font-size: 80px;
+  color: white;
+}
+#fact h2 {
+  font-size: 28px;
+  color: #505050;
+}
+#fact span {
+  color: #ff8400;
+}
+#fact .factborder {
+  border-right: 1px solid #9a99af;
+  height: 200px;
+  width: 45px;
+}
+
+#testimonial {
+  height: 700px;
+}
+#testimonial .testimonial_ {
+  height: 700px;
+}
+#testimonial .testimonial_ h1 {
+  font-size: 80px;
+  color: black;
+}
+#testimonial .testimonial_ h2 {
+  font-size: 28px;
+  color: #505050;
+}
+#testimonial .testimonial_ .testimonialBox1 {
+  height: 280px;
+  width: 460px;
+  border-radius: 10px;
+  border: 1px solid #b1b0bd;
+}
+#testimonial .testimonial_ .testimonialBox1 img {
+  margin-left: -60px;
+}
+#testimonial .testimonial_ .testimonialBox1 p {
+  font-size: 20px;
+  line-height: 25px;
+}
+#testimonial .testimonial_ .testimonialBox1 h3 {
+  font-size: 22px;
+  color: black;
+}
+
+#blog {
+  height: 900px;
+}
+#blog .blog_ {
+  height: 900px;
+}
+#blog .blog_ h1 {
+  font-size: 80px;
+  color: black;
+}
+#blog .blog_ h2 {
+  font-size: 28px;
+  color: #505050;
+}
+#blog .blog_ .blogMainBox {
+  position: relative;
+  height: 500px;
+  width: 350px;
+}
+#blog .blog_ .blogMainBox .BlogImg {
+  width: 100%;
+  height: 300px;
+}
+#blog .blog_ .blogMainBox .BlogImg img {
+  width: 100%;
+  height: 300px;
+}
+#blog .blog_ .blogMainBox .BlogContent {
+  position: absolute;
+  bottom: 0;
+  left: 19px;
+  width: 310px;
+  height: 230px;
+  background-color: white;
+}
+#blog .blog_ .blogMainBox .BlogContent h4 {
+  font-size: 26px;
+  border-left: 3px solid #ff8400;
+  padding-left: 25px;
+}
+#blog .blog_ .blogMainBox .BlogContent p {
+  line-height: 28px;
+  font-size: 21px;
+}
+
+#contact {
+  height: 1500px;
+}
+#contact .map {
+  position: relative;
+}
+#contact .map .ContactBox {
+  position: absolute;
+  top: 60%;
+  height: 800px;
+  width: 1135px;
+  background-color: white;
+}
+#contact .map .ContactBox span {
+  color: #ff8400;
+}
+#contact .map .ContactBox h3 {
+  font-size: 28px;
+  color: #505050;
+}
+#contact .map .ContactBox h2 {
+  font-size: 70px;
+  color: black;
+}
+#contact .map .ContactBox .US > li {
+  border-bottom: 1px solid black;
+  height: 150px;
+}
+#contact .map .ContactBox p {
+  font-size: 25px;
+  line-height: 30px;
+}
+#contact .map .ContactBox input {
+  height: 60px;
+}
+#contact .map .ContactBox .btn {
+  height: 55px;
+  width: 200px;
+  background-color: #ff8400;
+  color: white;
+  border-radius: 50px;
+  border: none;
+}
+#contact .map .ContactBox .btn:hover {
+  background-color: #141524;
+}

@@ -1,0 +1,37 @@
+#about{
+    height: 650px;
+    font-family: $MainFontfamily;
+    .aboutImage{
+        height: 550px;
+    }
+    .about-bottom{
+        position: relative;
+        img{
+            height: 150px;
+            width: 120px;
+        }
+        .aboutImageOverlay{
+           position: absolute;
+           top: 0px;
+           left: 0px;
+           height: 150px;
+            width: 120px;
+           background-color: rgba(255, 123, 0, 0.794);
+        }
+        span{
+            cursor: pointer;
+        }
+    }
+    p{
+        line-height: 25px;
+        color: $secondcolor;
+    }
+
+    h2{
+        font-size: 25px;
+        color: $thirdcolor;
+      }
+      h1{
+          font-size: 50px;
+      }
+}

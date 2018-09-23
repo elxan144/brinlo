@@ -1,0 +1,33 @@
+#testimonial{
+    height: 700px;
+    .testimonial_{
+        height: 700px;
+         
+        h1{
+            font-size: 80px;
+            color: rgb(0, 0, 0);
+            }
+            h2{
+                font-size: 28px;
+                color: $thirdcolor;
+            }
+            .testimonialBox1{
+                height: 280px;
+                width: 460px;
+                border-radius: 10px;
+                border: 1px solid $fourcolor;
+                img{
+                    margin-left: -60px;
+                }
+                p{
+                    font-size: 20px;
+                    line-height: 25px;
+                }
+                h3{
+                    font-size: 22px;
+                    color: black;
+                }
+            }
+
+    }
+}

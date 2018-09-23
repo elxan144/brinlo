@@ -1,0 +1,72 @@
+#slide{
+    background: white url("../image/header-bg.jpg") center center no-repeat ;
+    background-size: cover;
+    height: 1100px;
+    font-family: $MainFontfamily;
+    .overlay{
+        width: 100%;
+        height: 1100px;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .slide_content{
+        height: 550px;
+    }
+
+    .slide_content h2{
+        font-size: 40px;
+        color: rgb(216, 216, 216);
+        margin-bottom: 30px;
+    }
+    .slide_content h1{
+        font-size:130px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+    }
+    .slide_btn{
+        height: 55px;
+        width: 200px;
+        background-color: $mainColor;
+        color: white;
+        border-radius: 50px;
+        border: none;
+        &:hover{
+            background-color: rgb(20, 21, 36);
+        }
+    }
+    .slide_btn2{
+        height: 55px;
+        width: 200px;
+        color: white;
+        background-color: transparent;
+        border-radius: 50px;
+        border: 1px solid gray;
+        &:hover{
+            background-color: $mainColor;
+        }
+    }
+    .slide_bottom{
+        height: 600px;
+    }
+    .slide_bottom_box{
+        height: 360px;
+        span{
+            font-size: 50px;
+            color: $mainColor;
+        }
+        h1{
+            font-size:30px;
+            font-weight: 700;
+            color: rgb(0, 0, 0);
+        }
+        p{
+            font-size: 17px;
+            color: $secondcolor;
+            margin-top: 25px;
+            line-height: 25px;
+        }
+    }
+}
+#empty{
+    height: 350px;
+    background-color: white;
+}

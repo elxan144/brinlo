@@ -1,0 +1,47 @@
+#blog{
+    height: 900px;
+    .blog_{
+        height: 900px;
+        h1{
+            font-size: 80px;
+            color: rgb(0, 0, 0);
+            }
+            h2{
+                font-size: 28px;
+                color: $thirdcolor;
+            }
+            .blogMainBox{
+                position: relative;
+                height: 500px;
+                width: 350px;
+                .BlogImg{
+                    width: 100%;
+                    height: 300px;
+                    img{
+                        width: 100%;
+                    height: 300px;
+                    }
+                }
+                .BlogContent{
+                    position: absolute;
+                    bottom: 0;
+                    left: 19px;
+                    width: 310px;
+                    height: 230px;
+                    background-color: white;
+                    span{
+                    
+                    }
+                    h4{
+                        font-size: 26px;
+                        border-left:3px solid $mainColor; 
+                        padding-left: 25px;
+                    }
+                    p{
+                        line-height: 28px;
+                        font-size: 21px; 
+                    }
+                }
+            }
+    }
+}
